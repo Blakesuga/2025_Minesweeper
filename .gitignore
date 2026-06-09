@@ -1,0 +1,17 @@
+# CLion IDE files
+.idea/
+
+# Build output
+cmake-build-debug/
+cmake-build-release/
+
+# Compiled binaries
+*.exe
+*.o
+*.out
+
+# Archives
+*.zip
+
+# SFML library
+SFML-2.6.1/
