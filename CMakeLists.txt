@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # path to SFML 2.6
-set(SFML_DIR "C:/Users/pnata/CLionProjects/Minesweeper_Spring_2024/SFML-2.6.1/lib/cmake/SFML")
+set(SFML_DIR "${CMAKE_SOURCE_DIR}/SFML-2.6.1/lib/cmake/SFML")
 
 # find SFML 2.6 components
 find_package(SFML 2.6 REQUIRED COMPONENTS graphics window system)
